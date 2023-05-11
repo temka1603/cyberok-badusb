@@ -24,14 +24,15 @@ p {
   font-family: monospace;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 5vh;
+
+  font-size: 3vh;
   padding-top: 5vh;
   background: red;
   box-shadow: 0 0 30px red;
   text-shadow: 0 0 20px white;
   color: white;
   width: 25vw;
-  height: 30vh;
+  height: 25vh;
   position: absolute;
   left: 50%;
   margin-left: -10vw;
@@ -44,6 +45,12 @@ p {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
+}
+
+a {
+ font-family:monospace;
+ font-weight: bold;
+ color: inherit; 
 }
 
 @keyframes blink {

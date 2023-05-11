@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 5vh 5vw;
-  background: black;
+  background-image:url('../images/glitch_cyberok.gif');
+  background-repeat:repeat;
   overflow:hidden;
 }
 

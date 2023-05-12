@@ -59,7 +59,7 @@ var txt = [
 var docfrag = document.createDocumentFragment();
 counter = 0;
 function updateScreen() {
-  if (counter > 40){
+  if (counter > 30){
    const element = document.getElementById("console");
    element.remove();
    document.body.style.background = "url('images/glitch_cyberok.gif') repeat";

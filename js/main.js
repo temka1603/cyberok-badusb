@@ -1,4 +1,4 @@
-var intervalID = window.setInterval(updateScreen, 170);
+var intervalID = window.setInterval(updateScreen, 150);
 var c = document.getElementById("console");
 document.getElementsByClassName("msg")[0].style.display = "none";
 
